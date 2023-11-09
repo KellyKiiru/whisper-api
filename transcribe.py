@@ -8,4 +8,4 @@ def transcribe_audio("EarningsCall.wav"):
         transcription = openai.Audio.transcribe("whisper-1", audio_file)
     return transcription['text']
 
-print(audio_file_path)
+print(audio_file_path) 
